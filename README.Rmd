@@ -1,0 +1,46 @@
+---
+title: "July_Articles"
+author: "Jeffrey Smith"
+date: "`r format(Sys.Date(),'%d %B %Y')`"
+output:
+  html_document: default
+  github_document: default
+keep_md: yes
+---
+<!--don't edit README.md go to README.Rmd instead-->
+```{r setup, include=FALSE, echo=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, echo = FALSE, messages = FALSE}
+setwd("C:/Users/El Jefe/Documents/GitHub/July_Articles")
+```
+ 
+# General 
+A clean dataset containing 22,025 news articles from nine recognized news
+sources collected between July 01 - July 31,2017.
+ 
+# Data Description 
+This dataframe consists of the following seven columns
+
+## Title
+The title of each news article 
+
+## Author
+Identifies the author of each news article. Unidentified authors are represented by "unknown"
+
+## Date
+Publication date of each news article given in the "YYYYMMDD HH:MM:SS" format 
+
+## URL
+Weblink to each news article
+
+## NewsSource 
+Represents the name of the news source where each article was published
+
+## Text 
+Text from each news article
+
+## ArticleNo 
+Sequential list of each article in the dataset
