@@ -40,5 +40,5 @@ Represents the name of the news source where each article was published
 ## Text 
 Text from each news article
 
-## ArticleNo 
+## id 
 Sequential list of each article in the dataset
